@@ -30,13 +30,13 @@ An IoT-based gas leakage detection and alerting solution that monitors the prese
 
 ## 🖼️ System Architecture
 
-![System Architecture](images/BLOCKDIAGRAM.png)
+![System Architecture](images/block-diagram.png)
 
 ---
 
 ## 🔧 Circuit Diagram
 
-![Circuit Diagram](images/CIRCUITDIAGRAM.png)
+![Circuit Diagram](images/circuit-diagram.png)
 
 ---
 
