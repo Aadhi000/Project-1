@@ -65,44 +65,26 @@ An IoT-based gas leakage detection and alerting solution that monitors the prese
 
 | Folder / File                | Description                                                                 |
 |------------------------------|-----------------------------------------------------------------------------|
-| `Discussions/`               | Contains markdown discussions of system details:                            |
-|                              | → `advantages.md` – Benefits and merits of the gas safety system             |
-|                              | → `disadvantages.md` – Possible drawbacks or limitations                     |
-|                              | → `applications.md` – Areas where the system can be implemented              |
-|                              | → `future-scope.md` – Enhancements for future versions                       |
+| `firmware/`                  | Contains the Arduino source code for ESP32 microcontroller.                |
+| └── `esp32_gas_alert_system.ino` | Firmware handling gas detection, relay control, buzzer, and IoT alerts. |
 |                                                                                                           |
-| `Estimation/`                | Includes project cost, component, and effort analysis                        |
-| └── `estimation.md`          | Calculation of total cost and implementation details                         |
+| `images/`                    | Includes circuit diagrams, block diagrams, and prototype images.           |
+| ├── `block-diagram.png`      | Functional block diagram of the system.                                    |
+| ├── `circuit-diagram.png`    | Complete circuit connection schematic.                                     |
+| └── `prototype.jpg`          | Photograph of the assembled working project.                              |
 |                                                                                                           |
-| `Output/`                    | Visual proofs and working system images                                     |
-| ├── `images/`                | Snapshots of circuit and working prototype                                  |
-| └── `video/`                 | Demonstration video of the gas leakage alert system                         |
+| `docs/`                      | Documentation and supporting materials from the report.                    |
+| ├── `abstract.md`            | Abstract of the project.                                                   |
+| ├── `hardware.md`            | Description of each hardware component used.                               |
+| ├── `software.md`            | Software tools and libraries utilized.                                     |
+| ├── `working.md`             | Step-by-step working principle of the project.                             |
+| ├── `results.md`             | Output results and system performance.                                     |
+| └── `references.md`          | References and citations from the report.                                 |
 |                                                                                                           |
-| `Web_Dashboard/`             | Details about IoT dashboard configuration                                   |
-| └── `dashboard-description.md` | Explanation of Blynk layout and virtual pin mapping                       |
+| `extras/`                    | Contains the full formatted mini project report.                           |
+| └── `REPORT.pdf`             | Final academic report (submitted version).                                |
 |                                                                                                           |
-| `blynk_credentials/`         | Cloud credentials and configuration files                                   |
-| └── `blynk-config.txt`       | Includes template ID, auth token, and event names                           |
-|                                                                                                           |
-| `docs/`                      | Documentation and technical explanations                                   |
-| ├── `architecture.md`        | Describes system’s hardware and software structure                          |
-| ├── `working.md`             | Step-by-step explanation of operation                                       |
-| └── `literature-survey.md`   | Summarized review of related IoT gas detection systems                      |
-|                                                                                                           |
-| `extras/`                    | Supplementary project materials                                            |
-| └── `REPORT.pdf`             | Complete academic report in PDF format                                      |
-|                                                                                                           |
-| `firmware/`                  | Source code for ESP32 microcontroller                                      |
-| └── `esp32_gas_alert_system.ino` | Firmware implementing gas detection, relay, and IoT alerts          |
-|                                                                                                           |
-| `flowchart/`                 | System flow representation                                                 |
-| └── `flowchart.png`          | Diagram showing logic from detection to alert                              |
-|                                                                                                           |
-| `images/`                    | Visuals for documentation                                                  |
-| ├── `block-diagram.png`      | Functional block diagram of system                                         |
-| └── `circuit-diagram.png`    | Circuit schematic for ESP32 + MQ-2 + Relay + Fan + Buzzer setup            |
-|                                                                                                           |
-| `README.md`                  | You’re reading it — complete overview of the project                        |
+| `README.md`                  | Main overview of the project with description, features, and setup guide. |
 
 ---
 
