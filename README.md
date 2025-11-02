@@ -79,10 +79,7 @@ An IoT-based gas leakage detection and alerting solution that monitors the prese
 | ├── `software.md`            | Software tools and libraries utilized.                                     |
 | ├── `working.md`             | Step-by-step working principle of the project.                             |
 | ├── `results.md`             | Output results and system performance.                                     |
-| └── `references.md`          | References and citations from the report.                                 |
-|                                                                                                           |
-| `extras/`                    | Contains the full formatted mini project report.                           |
-| └── `REPORT.pdf`             | Final academic report (submitted version).                                |
+| └── `references.md`          | References and citations from the report.                                 |                                   
 |                                                                                                           |
 | `README.md`                  | Main overview of the project with description, features, and setup guide. |
 
