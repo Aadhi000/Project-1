@@ -85,9 +85,10 @@ An IoT-based gas leakage detection and alerting solution that monitors the prese
 
 ---
 
-## 👨‍💻 Developer
+## 👨‍💻 Developers
 
 - **Aadhi Muhammed**
+- **Jishna V**
 
 ---
 
